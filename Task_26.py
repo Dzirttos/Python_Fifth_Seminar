@@ -20,6 +20,6 @@ def power(a, b):
         return a * power(a, b-1)
 
 
-print(f'\033[32mЕсли число {round(x)} возвести в степень {round(y)},то получится {power(x, y)}.')
+print(f'\033[32mЕсли число {round(x)} возвести в степень {round(y)},то получится {power(x, y)}!')
 
 
